@@ -1,0 +1,18 @@
+
+# How to count the text in given file
+
+l = open('C:\\Users\\Sanju\\Downloads\\log.txt', 'r')
+P=l.readlines()
+Z=P.count('py')
+for i in P:
+    count = [0]
+    count = i.count('.py')
+    print(count)
+
+
+# l = open('C:\\Users\\Sanju\\Desktop\\IP add.txt', 'r')
+# P=l.readlines()
+# for i in P:
+#     count = [0]
+#     count = i.count('TLOC:172')
+#     print(count)
